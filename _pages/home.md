@@ -1,7 +1,7 @@
 ---
-title: "Allan Lab - Home"
+title: "Fei Lab - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University."
+excerpt: "Fei Gao Lab at Tsinghua University."
 sitemap: false
 permalink: /
 ---
