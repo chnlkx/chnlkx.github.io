@@ -1,8 +1,26 @@
+- title: "First Dark Matter Search with Nuclear Recoils from the XENONnT Experiment"
+  image: nt_wimps.png
+  description: The XENONnT experiment, utilizing a 5.9 ton liquid xenon time projection chamber over a (1.09 ± 0.03) ton yr exposure, achieved low background levels with no significant detection of nuclear recoils from dark matter WIMPs. This resulted in an upper limit of 2.58×10^−47 cm^2 for the spin-independent WIMP-nucleon cross section at a 28 GeV/c^2 WIMP mass, also providing limits for spin-dependent interactions and surpassing previous results from the XENON1T experiment.
+  authors: E. Aprile et al.(XENON Collaboration)
+  link:
+    url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.131.041003
+    display: Phys. Rev. Lett. 131, 041003 (Published 28 July 2023)
+  highlight: 1
+
 - title: "Search for New Physics in Electronic Recoil Data from XENONnT"
-  image: imageaward_edited.png
+  image: nt_er.png
   description: We report on a blinded analysis of low-energy electronic recoil data from the first science run of the XENONnT dark matter experiment. Novel subsystems and the increased 5.9 ton liquid xenon target reduced the background in the (1, 30) keV search region to the lowest ever achieved in a dark matter detector and 5 times lower than in XENON1T. With an exposure of 1.16 ton-years, we observe no excess above background and set stringent new limits on solar axions, an enhanced neutrino magnetic moment, and bosonic dark matter.
   authors: E. Aprile et al.(XENON Collaboration)
   link:
     url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.129.161805
     display: Phys. Rev. Lett. 129, 161805 (Published 13 October 2022)
+  highlight: 1
+
+- title: "Search for Coherent Elastic Scattering of Solar B8 Neutrinos in the XENON1T Dark Matter Experiment"
+  image: 1t_b8.png
+  description: We report on a search for nuclear recoil signals from solar ^8B neutrinos elastically scattering off xenon nuclei in XENON1T data, lowering the energy threshold from 2.6 to 1.6 keV. We develop a variety of novel techniques to limit the resulting increase in backgrounds near the threshold. No significant ^8B neutrino-like excess is found in an exposure of 0.6 t×y. For the first time, we use the nondetection of solar neutrinos to constrain the light yield from 1–2 keV nuclear recoils in liquid xenon, as well as nonstandard neutrino-quark interactions. Finally, we improve upon world-leading constraints on dark matter-nucleus interactions for dark matter masses between 3 and 11 GeV/c^2 by as much as an order of magnitude.
+  authors: E. Aprile et al.(XENON Collaboration)
+  link:
+    url: https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.091301
+    display: Phys. Rev. Lett. 126, 091301 (Published 1 March 2021)
   highlight: 1

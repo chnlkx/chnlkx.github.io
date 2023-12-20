@@ -6,8 +6,18 @@
   education1: B.S. Sun Yat-sen University
 
 - name: Chang Cai
+  photo: Caichang.jpg
+  info: PhD Student, started Sep 2021
+  email: caic21@mails.tsinghua.edu.cn
+  number_educ: 1
+  education1:  B.S. Nanjing University 
 
 - name: Lingfeng Xie 
+  photo: lingfeng_xie.png
+  info: PhD Student, started Sep 2022
+  email: xlf22@mails.tsinghua.edu.cn
+  number_educ: 1
+  education1:  B.S. Zhejiang University 
 
 - name: Kaihang Li
   photo: kaihang_li.png
@@ -17,7 +27,7 @@
   education1:  BEIHANG University
 
 - name: Jingcheng Shi
-  photo: Jingcheng_Shi.JPG
+  photo: Jingcheng_Shi.png
   info: PhD Student, started Sep 2023
   email: sjc23@mails.tsinghua.edu.cn
   number_educ: 1
