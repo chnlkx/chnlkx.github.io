@@ -8,29 +8,45 @@ permalink: /vacancies
 
 # Open positions
 
-**We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
+**We are currently open for PhD and postdoc applications related to XENON Project and RELICS neutrino experiment.**
 
 We are  looking for new group members with passion, talent, and grit!
 
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
+## Applications for Postdoc positions
+Currently we have postdoc positions open for the [XENON Project](https://inspirehep.net/jobs/2618429) and the [RELICS experiment](https://inspirehep.net/jobs/2739416).
 
-### Past open positions
+### Postdoc Fellow - XENON Project
+We participate in the XENON project. The XENONnT experiment is currently operated at the Gran Sasso underground Laboratory in Italy, aiming to search for rare physics phenomena such as nuclear recoils from WIMP Dark Matter. Successful applicants are expected to participate in the XENONnT's operation and play a leading role in data analysis. For details of the research projects, please get in touch with Prof. Fei Gao.
 
-You find the past job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf),
-[Opening 3]({{ site.baseurl }}/downloads/PD.pdf),
-[Opening 4]({{ site.baseurl }}/downloads/PHD1.pdf),
-[Opening 5]({{ site.baseurl }}/downloads/PHD2.pdf).
-
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:milan.allan@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
-
-We especially welcome postdocs with fellowships. I'd be happy to support you, also after you apply to our group. Take a look at the [veni fellowship](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) or the Marie Curie fellowship (currently closed, next deadline probably Fall 2021, [here is last years call]({{ site.baseurl }}/downloads/h2020-wp1820-msca_en.pdf)). In many country, there are also fellowships available for outdoing postdocs.**
+### Postdoc Fellow - RELICS Neutrino Experiment
+We are developing a liquid xenon time projection chamber to detect the coherent elastic neutrino-nucleus scattering from reactor neutrinos. The project is called the REactor neutrino LIquid xenon Coherent elastic Scattering (RELICS) experiment. The RELICS experiment is a 50-kg liquid xenon time projection chamber deployed at a ~25m baseline to the 3.3GW reactor core at the Sanmen nuclear power plant in Zhejiang Province in China. It aims to start its data-taking in 2025. Successful applicants are expected to play a leading role in the design, construction, and data analysis of the RELICS experiment. For details of the research projects, please get in touch with Prof. Fei Gao.
 
 
-### Bsc / Master students from elsewhere
-If you are interested in pursuing a Master degree at Leiden University, see [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction). Sometimes, we take master students or summer interns if we get exceptional applicants (this usually means very good grades and a personal recommendation).
+### For both positions:
+
+The initial appointment is for two years, with a possible renewal upon satisfactory performance. Applicants are supported to apply for the "Shuimu Tsinghua" fellowship at Tsinghua University. The "Shuimu Tsinghua" fellows will receive an annual salary of 300,000 RMB (before tax) for two years. Shuimu Tsinghua fellows enjoy the same medical plan privileges as Tsinghua faculty, and their children are offered positions at Tsinghua University’s kindergarten and primary school. Shuimu Tsinghua fellows can also participate in career training courses offered to Tsinghua faculty.
+
+Tsinghua provides transitional housing on campus to all postdoctoral fellows. Postdoctoral fellows will be supported to apply for external research funds. Applications will be accepted until the position is filled.
+
+#### Position Responsibilities:
+- Conduct original research independently and in collaboration.
+- Prepare research papers for publication.
+- Present research achievements at seminars and conferences.
+                                           
+#### Position Qualifications:
+- Applicants should have a Ph.D. in experimental high energy physics, experimental nuclear physics, or a related field or should expect to receive their Ph.D. by the time the appointment begins.
+- Candidates should have no more than three years in a prior postdoctoral appointment when the appointment begins.
+- Evidence of potential for a high level of achievement as an independent researcher.
+
+#### Application Materials Required:
+- Cover Letter
+- Curriculum Vitae
+- (up to 5) Representative Papers or representative works
+- Research proposal for work at Tsinghua
+- Three Reference Letters 
+
+
+
 
 
 <figure>

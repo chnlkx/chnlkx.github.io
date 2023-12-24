@@ -1,35 +1,38 @@
 - name: Kexin Liu
   photo: kexin_liu.png
   info: PhD Student, started Sep 2021
-  email: lkx21@mails.tsinghua.edu.cn
+  email: lkx21(at)mails.tsinghua.edu.cn
+  intro: Loves stars, forests and dance.
+  page: kexin
   number_educ: 1
   education1: B.S. Sun Yat-sen University
+  
 
 - name: Chang Cai
   photo: Caichang.jpg
   info: PhD Student, started Sep 2021
-  email: caic21@mails.tsinghua.edu.cn
+  email: caic21(at)mails.tsinghua.edu.cn
   number_educ: 1
   education1:  B.S. Nanjing University 
 
 - name: Lingfeng Xie 
   photo: lingfeng_xie.png
   info: PhD Student, started Sep 2022
-  email: xlf22@mails.tsinghua.edu.cn
+  email: xlf22(at)mails.tsinghua.edu.cn
   number_educ: 1
   education1:  B.S. Zhejiang University 
 
 - name: Kaihang Li
   photo: kaihang_li.png
   info: PhD Student, started Sep 2023
-  email: likh23@mails.tsinghua.edu.cn
+  email: likh23(at)mails.tsinghua.edu.cn
   number_educ: 1
   education1:  B.S. BEIHANG University
 
 - name: Jingcheng Shi
   photo: Jingcheng_Shi.png
   info: PhD Student, started Sep 2023
-  email: sjc23@mails.tsinghua.edu.cn
+  email: sjc23(at)mails.tsinghua.edu.cn
   number_educ: 1
   education1:  B.S. Tsinghua University
 

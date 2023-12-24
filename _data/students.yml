@@ -1,30 +1,50 @@
 - name: Minghao Liu
   photo: minghao_liu.jpg
   info: Bachelor Student, started Mar. 2022
-  email: mh-liu20@mails.tsinghua.edu.cn
+  email: mh-liu20(at)mails.tsinghua.edu.cn
   education1:  Undergraduate at Tsinghua University
 
 - name: Yikai Xu
   photo: yikai_xu.png
-  info: Undergraduate, started Sep 2021
-  email: xyk21@mails.tsinghua.edu.cn
+  info: Undergraduate, started Sep 2022
+  intro: Loves the universe, languages and anime.
+  page: yikai
+  email: xyk21(at)mails.tsinghua.edu.cn
   number_educ: 1
   education1: 2021-now Undergraduate at Tsinghua University
 
 - name: Yang Lei
   photo: Yang_Lei.png
-  info: Undergraduate Student, started Sep 2021
-  email: leiy21@mails.tsinghua.edu.cn
+  info: Undergraduate Student, started Sep 2022
+  intro: Loves table tennis, science-fiction novels and music.
+  page: Yang 
+  email: leiy21(at)mails.tsinghua.edu.cn
   number_educ: 1
   education1:  Undergraduate at Tsinghua University
 
 - name: Yifei Zhao
+  photo: maomao.jpg
 
 - name: Mingzhuo Song
+  photo: songmz.jpg
+  info: Undergraduate, started Mar 2023
+  email: songmz21(at)mails.tsinghua.edu.cn
+  intro: loves cosmos and machinery
+  page: Mingzhuo Song
+  number_educ: 1
+  education1: 2021-now Undergraduate at Tsinghua University
 
 - name: Jiayi Li
+  photo: jiayi.png
+  info: Undergraduate, started Sep 2022
+  email: l-jy21(at)mails.tsinghua.edu.cn
+  intro: Curious about nature, loves calisthenics and music.
+  page: jiayi
+  number_educ: 1
+  education1: 2021-now Undergraduate at Tsinghua University
 
 - name: Jian Ma
+  photo: maomao.jpg
 
 
 
