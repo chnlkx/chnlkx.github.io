@@ -23,7 +23,7 @@
   education1:  Undergraduate at Tsinghua University
 
 - name: Yifei Zhao
-  photo: maomao.jpg
+  photo: yifei.jpg
 
 - name: Mingzhuo Song
   photo: songmz.jpg
@@ -44,7 +44,13 @@
   education1: 2021-now Undergraduate at Tsinghua University
 
 - name: Jian Ma
-  photo: maomao.jpg
+  photo: mj.png
+  info: Undergraduate, started Sep 2022
+  email: majian21(at)mails.tsinghua.edu.cn
+  intro: loves piano, reading, games
+  page: mj
+  number_educ: 1
+  education1: 2021-now Undergraduate 
 
 
 

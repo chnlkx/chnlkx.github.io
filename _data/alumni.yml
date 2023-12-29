@@ -15,13 +15,37 @@
   education2: 2019 - 2023 , Tsinghua University , B.S. 
 
 - name: Shuhao Zhang
-  photo: maomao.jpg
+  photo: zsh.png
+  info: Undergraduate, started Sep 2021
+  email: sh-zhang20(at)mails.tsinghua.edu.cn
+  intro: It's a intro..
+  page: Shuhao
+  number_educ: 1
+  education1: 2020-now Undergraduate at Tsinghua University
 
 - name: Keyuan Zhong
-  photo: maomao.jpg
+  photo: ky.png
+  info: Undergraduate, started Sep 2021
+  email: zhongky20(at)mails.tsinghua.edu.cn
+  intro: loves footbal, games
+  page: Keyuan
+  number_educ: 1
+  education1: 2020-now Undergraduate at Tsinghua University
 
-- name: Haoceng Zhao
-  photo: maomao.jpg
+- name: Haocen Zhao
+  photo: Haocen_Zhao.jpg
+  info: Undergraduate, started Sep 2021
+  email: zhaohc20(at)mails.tsinghua.edu.cn
+  intro: Loves music, badminton and photography
+  page: Haocen
+  number_educ: 1
+  education1: 2020-now Undergraduate at Tsinghua University
 
 - name: Yuyong Yue
-  photo: maomao.jpg
+  photo: yuyong_yue.png
+  info: Bachelor of Science, graduated from Tsinghua University
+  email: ar985211(at)163.com
+  intro: Loves music, reading
+  page: Yuyong
+  number_educ: 1
+  education1: B.S. Tsinghua University
