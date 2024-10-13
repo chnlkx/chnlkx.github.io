@@ -1,5 +1,5 @@
 ---
-title: "Fei Lab - Home"
+title: "Gao Lab - Home"
 layout: homelay
 excerpt: "Fei Gao Lab at Tsinghua University."
 sitemap: false

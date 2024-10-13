@@ -1,7 +1,7 @@
 ---
-title: "Fei Lab - Kexin Liu"
+title: "Gao Lab - Kexin Liu"
 layout: textlay
-excerpt: "Fei Lab -- Kexin Liu"
+excerpt: "Gao Lab -- Kexin Liu"
 sitemap: false
 permalink: /kexin/
 ---

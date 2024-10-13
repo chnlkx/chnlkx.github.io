@@ -1,7 +1,7 @@
 ---
-title: "Fei Lab - Publications"
+title: "Gao Lab - Publications"
 layout: gridlay
-excerpt: "Fei Lab -- Publications."
+excerpt: "Gao Lab -- Publications."
 sitemap: false
 permalink: /publications/
 ---
