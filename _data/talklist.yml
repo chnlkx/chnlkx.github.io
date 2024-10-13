@@ -18,45 +18,57 @@
     display: Event and Slides
   highlight: 1
 
-- title: "液氙反应堆中微子探测器原型机的开发、运行和测试"
-  image: proto_spec.jpg
-  description: 介绍 RELICS 原型机的开发、运行和测试工作，并重点介绍近期测试的 Ar-37、Kr-83m 等低能区信号的实验特性.
-  speaker: 赵一飞
-  conference: 第三届地下和空间粒子物理与宇宙物理前沿问题研讨会(May 2024,西昌)
+- title: "RELICS: Search for Coherent Elastic Neutrino-Nucleus Scattering from reactor neutrinos using LXeTPC"
+  image: cai_talk.jpeg
+  description: The Reactor Experiment for Liquid Xenon Coherent Scattering (RELICS) aims to construct a 50-kilogram-scale liquid xenon detector (LXeTPC) to detect CEvNS signals from reactor neutrinos. 
+  speaker: Chang Cai
+  conference: International Workshop on Application of Noble Gas Xenon to Science and Technology” (XeSAT2024) 
+  link:
+    url: https://indico-tdli.sjtu.edu.cn/event/1861/contributions/11512/
+    display: Event and Slides
+  highlight: 1
+
+- title: "Dual-Phased Xenon Time Projection Chamber Prototype for the RELICS Neutrino Experiment"
+  image: lingfeng_talk.jpeg
+  description: Summarize the design, construction, and operation of the RELICS prototype.
+  speaker: Lingfeng Xie
+  conference: International Workshop on Application of Noble Gas Xenon to Science and Technology” (XeSAT2024) 
+  link:
+    url: https://indico-tdli.sjtu.edu.cn/event/1861/contributions/11511/
+    display: Event and Slides
+  highlight: 1
+
+- title: "Development, Operation, and Testing of a Prototype Liquid Xenon Reactor Neutrino Detector"
+  image: yifei_talk.jpeg
+  description: To validate the RELICS detector,we have built a prototype liquid xenon detector with an effective mass of 0.56 kilograms, equipped with experimental systems for cooling, purification, and data acquisition.
+  speaker: Yifei Zhao
+  conference: Conference on frontiers of underground and space particle physics and cosmophysics, COUSP2024, May 2024, Xichang
   link:
     url: https://indico-cdex.ep.tsinghua.edu.cn/event/162/contributions/1744/
     display: Event and Slides
   highlight: 1
 
-- title: "RELICS液氙反应堆中微子探测器原型机的测试进展"
-  image: proto_peak.jpg
-  description: 介绍 RELICS 原型机的开发、运行和测试工作，尤其是近期测试的 Ar-37、Kr-83m 等低能区信号特性，以及原型机单电子读出的进展和对 RELICS 低阈值探测原理的验证。
-  speaker: 赵一飞
-  conference: RELICS液氙反应堆中微子探测器原型机的测试进展(Aug 2024,青岛)
+- title: "First Measurement of Solar B-8 Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT"
+  image: kexin_sysu.jpg
+  description: A detailed view of the search for solar B-8 CEvNS signals in XENONnT
+  speaker: Kexin Liu
+  conference: Seminar (Oct 11, 2024, Sun Yat-sen Univeristy)
   link:
-    url: https://indico.ihep.ac.cn/event/21331/contributions/161592/
-    display: Event and Slides
+    url: https://spe.sysu.edu.cn/node/4424
+    display: Event
   highlight: 1
 
 - title: "First Measurement of Solar B-8 Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT"
   image: nt_b8.png
   description: A detailed view of the search for solar B-8 CEvNS signals in XENONnT
   speaker: Kexin Liu
-  conference: 学术报告 (Aug 20, 2024, 高能所)
+  conference: Seminar (Aug 20, 2024, IHEP)
   link:
     url: https://indico.ihep.ac.cn/event/23264/
     display: Event
   highlight: 1
 
-- title: "First Measurement of Solar B-8 Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT"
-  image: nt_b8.png
-  description: A detailed view of the search for solar B-8 CEvNS signals in XENONnT
-  speaker: Kexin Liu
-  conference: 学术报告 (Oct 11, 2024, 中山大学)
-  link:
-    url: https://spe.sysu.edu.cn/node/4424
-    display: Event
-  highlight: 1
+
 
 - title: "New Physics Search with Electronics Recoils from the XENONnT Experiment"
   image: nt_er.png
