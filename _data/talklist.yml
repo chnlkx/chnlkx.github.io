@@ -1,3 +1,63 @@
+- title: "First Measurement of Coherent Elastic Neutrino Nucleus Scattering of Solar 8B Neutrinos in XENONnT"
+  image: nt_b8.png
+  description: First Release of the XENONnT B8 CEvNS Result
+  speaker: Fei Gao
+  conference: 15th International Workshop on the Identification of Dark Matter (IDM 2024, L'Aquila)
+  link:
+    url: https://agenda.infn.it/event/39713/contributions/237829/
+    display: Event and Slides
+  highlight: 1
+
+- title: "Accidental Coincidence Background in XENONnT for Low Energy Nuclear Recoil Search"
+  image: kexin_idm.jpg
+  description: A toughout introduction of the AC modeling methods in XENONnT. (Best Presenter Award at the Direct Detection Session) 
+  speaker: Kexin Liu
+  conference: 15th International Workshop on the Identification of Dark Matter (IDM 2024, L'Aquila)
+  link:
+    url: https://agenda.infn.it/event/39713/contributions/234123/
+    display: Event and Slides
+  highlight: 1
+
+- title: "液氙反应堆中微子探测器原型机的开发、运行和测试"
+  image: proto_spec.jpg
+  description: 介绍 RELICS 原型机的开发、运行和测试工作，并重点介绍近期测试的 Ar-37、Kr-83m 等低能区信号的实验特性.
+  speaker: 赵一飞
+  conference: 第三届地下和空间粒子物理与宇宙物理前沿问题研讨会(May 2024,西昌)
+  link:
+    url: https://indico-cdex.ep.tsinghua.edu.cn/event/162/contributions/1744/
+    display: Event and Slides
+  highlight: 1
+
+- title: "RELICS液氙反应堆中微子探测器原型机的测试进展"
+  image: proto_peak.jpg
+  description: 介绍 RELICS 原型机的开发、运行和测试工作，尤其是近期测试的 Ar-37、Kr-83m 等低能区信号特性，以及原型机单电子读出的进展和对 RELICS 低阈值探测原理的验证。
+  speaker: 赵一飞
+  conference: RELICS液氙反应堆中微子探测器原型机的测试进展(Aug 2024,青岛)
+  link:
+    url: https://indico.ihep.ac.cn/event/21331/contributions/161592/
+    display: Event and Slides
+  highlight: 1
+
+- title: "First Measurement of Solar B-8 Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT"
+  image: nt_b8.png
+  description: A detailed view of the search for solar B-8 CEvNS signals in XENONnT
+  speaker: Kexin Liu
+  conference: 学术报告 (Aug 20, 2024, 高能所)
+  link:
+    url: https://indico.ihep.ac.cn/event/23264/
+    display: Event
+  highlight: 1
+
+- title: "First Measurement of Solar B-8 Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT"
+  image: nt_b8.png
+  description: A detailed view of the search for solar B-8 CEvNS signals in XENONnT
+  speaker: Kexin Liu
+  conference: 学术报告 (Oct 11, 2024, 中山大学)
+  link:
+    url: https://spe.sysu.edu.cn/node/4424
+    display: Event
+  highlight: 1
+
 - title: "New Physics Search with Electronics Recoils from the XENONnT Experiment"
   image: nt_er.png
   description: A general XENONnT talk, with the latest result of lowER search.
@@ -7,4 +67,3 @@
     url: https://indico.cern.ch/event/1133591/contributions/4972173/attachments/2500899/4296036/XENONnT_ICNFP_kexin_0901.pdf
     display: Slides
   highlight: 1
-

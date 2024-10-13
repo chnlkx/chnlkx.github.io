@@ -1,3 +1,11 @@
+- name: Minghao Liu
+  photo: minghao_liu.jpg
+  info: Bachelor Student, Mar. 2022 - Aug 2024
+  email: mh-liu20@mails.tsinghua.edu.cn
+  number_educ: 2
+  education1:  2024 - now , Columbia University, Ph.D
+  education2: B.S. Tsinghua University
+
 - name: Dacheng Xu
   photo: dacheng_xu.png
   info: Thesis Student, Apr 2021 - Aug 2022
@@ -13,6 +21,31 @@
   number_educ : 2
   education1: 2023 - now , Stanford University, Ph.D
   education2: 2019 - 2023 , Tsinghua University , B.S. 
+
+- name: Jingcheng Shi
+  photo: Jingcheng_Shi.png
+  info: PhD Student, started Sep 2023
+  email: sjc23(at)mails.tsinghua.edu.cn
+  number_educ: 1
+  education1:  B.S. Tsinghua University
+
+- name: Jiayi Li
+  photo: jiayi.png
+  info: Undergraduate, started Sep 2022
+  email: l-jy21(at)mails.tsinghua.edu.cn
+  intro: Curious about nature, loves calisthenics and music.
+  page: jiayi
+  number_educ: 1
+  education1: 2021-now Undergraduate at Tsinghua University
+
+- name: Jian Ma
+  photo: mj.png
+  info: Undergraduate, started Sep 2022
+  email: majian21(at)mails.tsinghua.edu.cn
+  intro: loves piano, reading, games
+  page: mj
+  number_educ: 1
+  education1: 2021-now Undergraduate 
 
 - name: Shuhao Zhang
   photo: zsh.png

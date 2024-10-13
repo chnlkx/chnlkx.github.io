@@ -6,7 +6,6 @@
   page: kexin
   number_educ: 1
   education1: B.S. Sun Yat-sen University
-  
 
 - name: Chang Cai
   photo: Caichang.jpg
@@ -29,10 +28,10 @@
   number_educ: 1
   education1:  B.S. BEIHANG University
 
-- name: Jingcheng Shi
-  photo: Jingcheng_Shi.png
-  info: PhD Student, started Sep 2023
-  email: sjc23(at)mails.tsinghua.edu.cn
+- name: Yifei Zhao
+  photo: yifei_zhao.jpg
+  info: PhD Student, started Sep 2024
+  email: zhao-yf24@mails.tsinghua.edu.cn
   number_educ: 1
   education1:  B.S. Tsinghua University
 
