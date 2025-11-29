@@ -1,42 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+title: Kexin Liu - Academic Homepage
+description: Ph.D. Candidate in Physics at Tsinghua University
+baseurl: "" # 如果你的仓库名不是 yourname.github.io，这里可能需要填 "/repo-name"
+url: "https://chnlkx.github.io"
+encoding: "utf-8"
 
-# Site settings
-title: The Allan Lab
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Website of the AllanLab.
-baseurl: ""
-url: ""
-
-include:
-  - .htaccess
-  - _pages
-
-sass:
-  sass_dir: _sass
-
-# Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
-
-
-
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+# 启用 GitHub Pages 默认的构建插件
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap  # 新增这一行：自动生成 sitemap.xml 方便 Google 抓取
