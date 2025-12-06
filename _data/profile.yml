@@ -6,11 +6,11 @@ info:
   email: lkx21@mails.tsinghua.edu.cn
   location: Beijing, China
   # 你的个人简介标语
-  tagline: "Hey ghost particles, let's take a selfie! Searching for Dark Matter & Neutrinos with XENONnT."
+  tagline: "Hey ghost particles, let's take a selfie!"
   # 社交链接
   links:
     orcid: https://orcid.org/0009-0004-1437-5716
-    inspire: https://inspirehep.net/authors/yourid
+    inspire: https://inspirehep.net/authors/2968806?ui-citation-summary=true
     github: https://github.com/yourusername
     # linkedin: https://linkedin.com/in/yourname
 
@@ -105,9 +105,11 @@ talks:
     event: "WIN 2025, Brighton, UK"
     date: "2025"
     type: "Conference Talk"
+    slides: "files/xenonnt_b8_win_kexin.pdf"
 
   - title: "Accidental Coincidence Background in XENONnT"
     event: "IDM 2024, L'Aquila, Italy"
     date: "2024"
     type: "Conference Talk"
+    slides: "files/IDM2024_XENONnT_AC_v6_kexin.pdf"
     note: "Best Presentation Award"
