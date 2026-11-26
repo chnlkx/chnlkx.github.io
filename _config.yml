@@ -1,10 +1,9 @@
-title: Kexin Liu - Tsinghua Physics
-description: Ph.D. Candidate in Physics at Tsinghua University
-baseurl: "" # 如果你的仓库名不是 yourname.github.io，这里可能需要填 "/repo-name"
+title: Kexin Liu | Neutrinos & Dark Matter
+description: Kexin Liu, physicist and XENON Collaboration Analysis Coordinator, working on solar neutrinos and dark matter.
+baseurl: ""
 url: "https://chnlkx.github.io"
 encoding: "utf-8"
 
-# 启用 GitHub Pages 默认的构建插件
 plugins:
   - jekyll-seo-tag
-  - jekyll-sitemap  # 新增这一行：自动生成 sitemap.xml 方便 Google 抓取
+  - jekyll-sitemap
