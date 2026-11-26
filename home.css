@@ -15,12 +15,12 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
-  background: var(--paper);
+  background: linear-gradient(180deg, var(--paper) 12%, #faf3f8 56%, #f0eee2);
   color: var(--ink);
   font: 1rem/1.65 var(--sans);
 }
 ::selection { background: var(--lavender); color: var(--ink); }
-a { color: var(--plum); text-underline-offset: 0.2em; }
+a { color: var(--plum); text-underline-offset: 0.2em; transition: color 220ms ease, background-color 220ms ease; }
 a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 2px solid var(--plum); outline-offset: 5px; }
 img { display: block; max-width: 100%; }
@@ -82,8 +82,7 @@ h1 span { color: var(--plum); }
 .bio { max-width: 45ch; color: var(--muted); font-size: clamp(1rem, 1.6vw, 1.13rem); }
 .actions { margin-top: 1.65rem; font-weight: 650; font-size: 0.92rem; }
 .button { display: inline-flex; align-items: center; gap: 0.65rem; background: var(--plum); color: white; border-radius: 0.35rem; padding: 0.65rem 0.95rem; text-decoration: none; }
-.button:hover { background: #432054; }
-.filetype { font-size: 0.75rem; color: #f3eaff; }
+.button:hover, .button:focus-visible { background: #386052; }
 
 .portrait { width: min(100%, 22rem); justify-self: center; }
 .portrait-mat {
@@ -96,6 +95,7 @@ h1 span { color: var(--plum); }
   border-radius: 0.55rem;
   box-shadow: 0.4rem 0.55rem 0 #e7c9cb;
   transform: rotate(2deg);
+  transition: background-color 260ms ease, box-shadow 260ms ease;
 }
 .photo { width: 100%; overflow: hidden; background: var(--lavender); border: 1px solid var(--ink); border-radius: 0.25rem; }
 .photo img { width: 100%; height: auto; }
@@ -122,6 +122,68 @@ figcaption { margin-top: 1.3rem; text-align: center; font: italic clamp(1.1rem, 
 .feature { padding: clamp(1.4rem, 3.5vw, 2.8rem); background: var(--lavender); border-radius: 0.4rem; border: 1px solid #bba3cf; }
 .feature h3 { font-size: clamp(2.2rem, 4vw, 3.5rem); line-height: 1.04; margin: 0.55rem 0 1rem; letter-spacing: -0.045em; }
 .feature a { font-weight: 650; }
+.solar-illustration { margin-block: 1.15rem 0; }
+.solar-scene {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  min-height: clamp(9rem, 20vw, 13.5rem);
+  padding: 0;
+  border: 1px solid #53325e;
+  border-radius: 0.4rem;
+  background:
+    radial-gradient(circle at 62% 48%, #df8e745e, transparent 55%),
+    linear-gradient(155deg, #281e41, #594168 57%, #8b5063);
+  touch-action: none;
+}
+.solar-scene:enabled { cursor: crosshair; }
+.solar-orbit, .solar-sun, .solar-mist { position: absolute; pointer-events: none; }
+.solar-orbit {
+  top: 49%;
+  left: 61%;
+  width: 82%;
+  height: 45%;
+  border: 1px solid #ffddc47a;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(-19deg);
+}
+.solar-orbit::before, .solar-orbit::after {
+  content: "";
+  position: absolute;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background: #ffe3b0;
+  box-shadow: 0 0 0.55rem #ffdc9a;
+}
+.solar-orbit::before { top: 65%; left: 2%; }
+.solar-orbit::after { right: 15%; bottom: 9%; }
+.solar-sun {
+  top: 48%;
+  left: 62%;
+  width: clamp(2.6rem, 5vw, 4rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle at 38% 32%, #fff6d1 13%, #ffd992 67%, #f5ac76);
+  box-shadow: 0 0 1.4rem #ffe0a7c4, 0 0 3rem #ffd08d78;
+}
+.solar-mist {
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 64% 50%, #bdaacb 8%, #bdaacb00 69%),
+    radial-gradient(ellipse at 18% 75%, #d2c1ddcf, #d2c1dd00 75%),
+    linear-gradient(19deg, #c6b4d9a3, #a49ab963 51%, #b3a9c2bf);
+  transition: opacity 440ms ease;
+}
+.solar-scene.is-sweeping .solar-mist {
+  -webkit-mask-image: radial-gradient(circle clamp(3.3rem, 12vw, 7rem) at var(--fog-x) var(--fog-y), transparent 26%, #000 100%);
+  mask-image: radial-gradient(circle clamp(3.3rem, 12vw, 7rem) at var(--fog-x) var(--fog-y), transparent 26%, #000 100%);
+}
+.solar-scene[aria-pressed="true"] .solar-mist { opacity: 0; }
+.solar-instruction { margin-top: 0.48rem; text-align: left; font: 0.88rem/1.45 var(--sans); color: var(--muted); }
 .metrics { display: flex; flex-wrap: wrap; column-gap: clamp(1rem, 3vw, 2rem); row-gap: 0.6rem; margin: 1.25rem 0 1.4rem; }
 .metrics div { display: flex; flex-direction: column-reverse; justify-content: flex-end; }
 .metrics dd { font: 2.45rem/1 var(--serif); margin-bottom: 0.3rem; }
@@ -190,6 +252,36 @@ summary:hover { text-decoration: underline; text-underline-offset: 0.2em; }
 .footer { color: var(--muted); padding-block: 2rem; }
 .footer strong { color: var(--ink); }
 
+.reveal-pending {
+  opacity: 0.55;
+  transform: translateY(0.8rem);
+}
+.current, .studio { transition: background-color 260ms ease; }
+.reveal-ready { transition: opacity 650ms ease, transform 650ms ease, background-color 260ms ease; }
+.reveal-pending:target, .reveal-pending:focus-within { opacity: 1; transform: none; }
+
+.cv-main { width: min(100% - 5rem, 56rem); padding-block: clamp(2.3rem, 7vw, 5.4rem); }
+.cv-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.9rem 1.4rem;
+  margin-bottom: 1.65rem;
+}
+.cv-heading h1 { margin: 0.55rem 0 0; font-size: clamp(2.7rem, 7vw, 5.8rem); line-height: 1; }
+.cv-sheets { display: grid; gap: clamp(0.65rem, 3vw, 1.5rem); }
+.cv-sheets img { display: block; width: 100%; height: auto; background: white; border: 1px solid var(--line); }
+
+.feature, .research-item, .papers li, summary { transition: background-color 260ms ease, color 260ms ease; }
+@media (hover: hover) {
+  .portrait-mat:hover { background: #e7ecd2; box-shadow: 0.4rem 0.55rem 0 #d9c2ee; }
+  .current:hover { background: #edf0b4; }
+  .feature:hover { background: #f0dded; }
+  .research-item:hover, .papers li:hover, summary:hover { background: #e5d6f451; }
+  .studio:hover { background: #65335f; }
+}
+
 @media (max-width: 55rem) {
   .shell { width: min(100% - 3rem, 72rem); }
   .hero { gap: 2.5rem; }
@@ -209,8 +301,11 @@ summary:hover { text-decoration: underline; text-underline-offset: 0.2em; }
   .updates li + li { margin-top: 0.8rem; }
   .studio { min-height: 12rem; grid-template-columns: 1fr minmax(5rem, 0.7fr); }
   .studio-art { min-height: 6rem; }
+  .cv-main { width: calc(100% - 2rem); }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .reveal-pending { opacity: 1; transform: none; }
+  .reveal-ready, .solar-mist { transition: none; }
 }
